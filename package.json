@@ -1,0 +1,21 @@
+{
+  "name": "emily-lcu-connector",
+  "version": "1.3.2",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "example": "tsc src/example/test.ts --outDir dist -t es5 && node dist/src/example/test.js"
+  },
+  "keywords": [],
+  "author": "Emily",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "node-fetch": "^2.6.0",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.9",
+    "@types/ws": "^7.2.4"
+  }
+}
